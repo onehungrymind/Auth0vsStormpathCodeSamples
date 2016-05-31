@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="sample">
+  <head>
+    <title>Stormpath Authentication Example</title>
+    <base href="/"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular-route.js"></script>
+    <script src="./stormpath-sdk-angularjs.min.js"></script>
+    <script src="./stormpath-sdk-angularjs.tpls.min.js"></script>
+
+    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="./home/home.js"></script>
+    <script type="text/javascript" src="./login/login.js"></script>
+
+  </head>
+  <body>
+    <div class="container" ng-view></div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<div class="home">
+  <div class="jumbotron text-center clearfix">
+  	<h1>Auth0</h1>
+  	<div class="col-xs-6">
+  	  <p>Click the button below to call an unsecured public API</p>
+  	  <a class="btn btn-block btn-primary" ng-click="callPublicApi()">Call Public API</a>
+  	</div>
+  	<div class="col-xs-6">
+  	  <p>Click the button below to call a secured API that returns data only if you are logged in.</p>
+  	  <a class="btn btn-block btn-success" ng-click="callSecureApi()">Call Secure API</a>
+  	</div>
+  </div>
+  <p class="small text-center">You are currently logged in. Welcome!</p>
+  <a class="btn btn-block btn-warning" ng-click="logout()">Logout</button>
+</div>

@@ -1,0 +1,9 @@
+{
+	"name" : "Stormpath-Auth-Example",
+	"version" : "1.0.0",
+	"dependencies" : {
+		"express" : "latest",
+		"express-stormpath" : "latest",
+		"dotenv" : "latest"
+	}
+}
