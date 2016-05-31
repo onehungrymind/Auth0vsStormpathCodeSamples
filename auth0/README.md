@@ -2,7 +2,7 @@
 
 This is a simple app that shows how to secure backend API's as well as add user authentication to your app with Auth0. For this example we are using Node/Express on the backend and AngularJS on the frontend.
 
-To get this example running, you will need to replace the values located in the `.env` file with your Auth0 credentials. Additionally, you will nedd to update the `auth0-variables.js` file as well location in the `/public` directory with your Auth0 credentials.
+To get this example running, you will need to replace the values located in the `.env` file with your Auth0 credentials. Additionally, you will nedd to update the `auth0-variables.js` file as well located in the `/public` directory with your Auth0 credentials.
 
 ## Running the example
 
